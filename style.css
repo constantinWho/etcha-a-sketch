@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+button {
+    outline: none;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 25px;
+    height: 50px;
+    width: 100px;
+}
+button:hover{
+    background: rgba(64, 120, 153, 0.664);
+}
+#container {
+    border: 2px solid black;
+    border-radius: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+}
+.grid {
+    float: left;
+    border: 1px solid black; 
+}
